@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Mastermind}",
+            "name": "Debug Mastermind",
+            "program": "${workspaceFolder:Mastermind}/.build/debug/Mastermind",
+            "preLaunchTask": "swift: Build Debug Mastermind"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Mastermind}",
+            "name": "Release Mastermind",
+            "program": "${workspaceFolder:Mastermind}/.build/release/Mastermind",
+            "preLaunchTask": "swift: Build Release Mastermind"
+        }
+    ]
+}
